@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'terraform-infrastructure/**'
 
 env:
   TF_CLOUD_ORGANIZATION: "mpflynnx"
